@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     height: 100%;
+
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -15,18 +16,41 @@ html, body{
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    height:100vh;
+    background-color: black;
+     text-align: center;
+     border-radius: 5px;
+     margin-left: 3px;
+     color: white;
+
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+      height: 80px;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 2px;
+
 }
 
-.main{
+.main{ 
+    height: 54vh;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 60px;
+    border-radius: 5px;
+    margin: 2px;
+
 
 }
 
-a{
-    color: darkgray;
+a{ text-decoration: none;
+    color: white;
+
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
@@ -34,7 +58,21 @@ a{
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
+.flex-container {
+    display: flex;
+    height: 100vh;
+}
 
+
+    .flexer{   
+        flex-direction: column;
+        height: 100vh;
+        margin-left: 3px;
+
+      }
+
+
+.btn:hover{   background-color: white;}
 
 h1{
     margin: 0;
